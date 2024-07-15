@@ -50,7 +50,7 @@ module.exports = {
         }
 console.log(data)
         const answer = data.gpt;
-        await NAYAN.sendContact(answer, id, events.threadID);
+        await TAMIM.sendContact(answer, id, events.threadID);
       });
     } catch (error) {
       console.error("Error while processing GPT request:", error);
